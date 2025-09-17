@@ -25,3 +25,11 @@ Checklist
         Executar comandos no Heroku CLI
 
 ATENÇÃO: O PROJETO NÃO RODA LOCALMENTE NO PROFILE PROD! Se você quiser rodar o projeto localmente depois, mude para o profile test.
+
+verificar usuario e email
+git config --global user.name
+git config --global user.email
+
+Trocar o git de master para main
+git branch -M main
+git log --oneline -> para ver os meus commits
